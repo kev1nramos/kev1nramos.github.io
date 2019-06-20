@@ -2993,8 +2993,6 @@ body
 }
 .tile
 {
-  width:380px;
-  height:380px;
   margin:10px;
   background-color: rgb(0, 118, 206);
   display:inline-block;
@@ -3011,7 +3009,7 @@ body
 .tile img
 {
   height:100%;
-  width:100%;
+  max-width:100%;
   position:absolute;
   top:0;
   left:0;
@@ -3112,7 +3110,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 @media (max-width: 1000px) {
   .wrap {
    flex-direction: column;
-    width:400px;
+    width:100%;
   }
 }
 
