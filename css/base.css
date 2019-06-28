@@ -423,6 +423,12 @@ textarea {
     width: 50%;
 }
 
+@media screen and (min-width: 800px), (min-height: 800px){
+  .without-images {
+    margin-left: 25%;
+  }
+}
+
 .col-seven {
     width: 58.33333%;
 }

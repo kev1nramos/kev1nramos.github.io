@@ -2913,6 +2913,12 @@ html.no-csstransitions .home-content__main {
   padding-top: 5%;
 }
 
+@media screen and (min-width: 800px), (min-height: 800px){
+  .footer-blog {
+    margin-left: 15%;
+  }
+}
+
 .image-right {
   padding-top: 12%;
 }
